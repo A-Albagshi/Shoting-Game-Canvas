@@ -1,4 +1,4 @@
-export default class Player {
+export default class Object {
     positionX;
     positionY;
     width;

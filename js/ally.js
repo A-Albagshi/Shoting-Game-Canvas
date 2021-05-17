@@ -1,7 +1,7 @@
-import Player from './player.js';
 import Bullet from './Bullet.js';
+import Object from './Object.js';
 
-export default class Ally extends Player {
+export default class Ally extends Object {
     constructor(positionX, positionY, width, height) {
         super(positionX, positionY, width, height)
     }
